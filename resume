@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info, .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+        .contact-info ul, .education ul, .experience ul, .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <ul>
+                <li><a href="#contact-info">Contact Info</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <section id="contact-info" class="contact-info">
+            <h2>Contact Info</h2>
+            <ul>
+                <li>Email: john.doe@example.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>Address: 123 Main St, Anytown, USA</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></li>
+                <li>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></li>
+            </ul>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Master of Science in Computer Science</strong>, XYZ University, 2022</li>
+                <li><strong>Bachelor of Science in Information Technology</strong>, ABC University, 2020</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>Software Engineer</h3>
+                    <p>XYZ Company, 2022 - Present</p>
+                    <ul>
+                        <li>Developed web applications using HTML, CSS, JavaScript, and Python.</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality software products.</li>
+                        <li>Implemented RESTful APIs and optimized database queries.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Junior Developer</h3>
+                    <p>ABC Corporation, 2020 - 2022</p>
+                    <ul>
+                        <li>Assisted in developing and maintaining internal tools and applications.</li>
+                        <li>Conducted code reviews and provided feedback to improve code quality.</li>
+                        <li>Participated in Agile development processes and sprint planning.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, JavaScript, Java, C++</li>
+                <li>Web Development: HTML, CSS, React, Node.js</li>
+                <li>Databases: MySQL, PostgreSQL, MongoDB</li>
+                <li>Tools: Git, Docker, Jenkins</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
